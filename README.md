@@ -17,7 +17,9 @@ ___
 ___
 
 ## Ссылка на деплой приложения
-[Kardo-Project](https://kardo-frontend-seven.vercel.app/)
+```sh
+404 Not Found
+```
 ___
 
 ## Стек используемых технологий
