@@ -1,3 +1,4 @@
+"use client";
 import cls from './TimerDIsplay.module.css';
 import { classNames } from '@/shared/lib/classNames/classNames';
 
@@ -9,7 +10,7 @@ interface ITimerDisplayProps {
 
 export const TimerDisplay = ({ className, session, time }: ITimerDisplayProps) => {
   return (
-    <section className={classNames(cls.section, {}, [className ?? ''])}>
+    <div className={classNames(cls.section, {}, [className ?? ''])}>
       <div className={classNames(cls.container, {}, [])}>
         <div className={classNames(cls.sessionBlock, {}, [])}>
           <p className={classNames(cls.text, {}, [])}>
@@ -22,6 +23,6 @@ export const TimerDisplay = ({ className, session, time }: ITimerDisplayProps) =
           </h1>
         </div>
       </div>
-    </section>
+    </div>
   )
 } 

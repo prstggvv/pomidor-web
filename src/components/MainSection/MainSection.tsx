@@ -10,7 +10,6 @@ interface IMainSectionProps {
 export const MainSection = ({ className }: IMainSectionProps) => {
   return (
     <main className={classNames(cls.content, {}, [className ?? ''])}>
-      <TimerDisplay session='1' time='29:59' />
       <CoffeSection />
     </main>
   )
